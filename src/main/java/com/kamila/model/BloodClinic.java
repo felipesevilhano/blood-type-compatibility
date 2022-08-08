@@ -8,8 +8,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class BloodClinic {
-    public static Map<BloodType, List<BloodType>> donorCompatibilityMap;
-    public static Map<BloodType, List<BloodType>> receiverCompatibilityMap;
+    public static final Map<BloodType, List<BloodType>> donorCompatibilityMap;
+    public static final Map<BloodType, List<BloodType>> receiverCompatibilityMap;
 
     static {
         donorCompatibilityMap = Map.of(
